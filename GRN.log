@@ -1,0 +1,100 @@
+INFO [2023-03-11 20:14:36] Empty GRN object created successfully. Type the object name (e.g., GRN) to retrieve summary information about it at any time.
+INFO [2023-03-11 20:26:31] Normalize counts. Method: DESeq_sizeFactor, ID column: peakID
+INFO [2023-03-11 20:26:40]  Finished successfully. Execution time: 8.6 secs
+INFO [2023-03-11 20:26:40] Normalize counts. Method: quantile, ID column: ENSEMBL
+INFO [2023-03-11 20:26:41]  Finished successfully. Execution time: 0.8 secs
+INFO [2023-03-11 20:26:41] Subset RNA and peaks and keep only shared samples
+INFO [2023-03-11 20:26:41]  Number of samples for RNA before filtering: 29
+INFO [2023-03-11 20:26:41]  Number of samples for peaks before filtering: 31
+INFO [2023-03-11 20:26:41]  29 samples (babk_D,bima_D,cicb_D,coyi_D,diku_D,eipl_D,eiwy_D,eofe_D,fafq_D,febc_D,fikt_D,guss_D,hayt_D,hehd_D,heja_D,hiaf_D,iill_D,kuxp_D,nukw_D,oapg_D,oevr_D,pamv_D,pelm_D,podx_D,qolg_D,sojd_D,vass_D,xugn_D,zaui_D) are shared between the peaks and RNA-Seq data
+WARN [2023-03-11 20:26:41] The following samples from the peaks will be ignored for the classification due to missing overlap with RNA-Seq: uaqe_D,qaqx_D
+INFO [2023-03-11 20:26:41]  Number of samples for RNA after filtering: 29
+INFO [2023-03-11 20:26:41]  Number of samples for peaks data after filtering: 29
+INFO [2023-03-11 20:26:41]  Finished successfully. Execution time: 0.1 secs
+INFO [2023-03-11 20:26:42] Produce 1 permutations of RNA-counts
+INFO [2023-03-11 20:26:42] Shuffling columns 1 times
+INFO [2023-03-11 20:26:42]  Finished successfully. Execution time: 0 secs
+INFO [2023-03-11 20:26:42] Parsing provided metadata...
+INFO [2023-03-11 20:26:49] Check for overlapping peaks...
+ERROR [2023-03-11 20:26:49] The suggested package "TxDb.Hsapiens.UCSC.hg38.knownGene" is not yet installed, but it is required for this function and in this context. Please install it and re-run this function.
+
+########################################################################################
+# An error occurred. See details above. If you think this is a bug, please contact us. #
+########################################################################################
+
+INFO [2023-03-11 20:33:09] Normalize counts. Method: DESeq_sizeFactor, ID column: peakID
+INFO [2023-03-11 20:33:11]  Finished successfully. Execution time: 1.9 secs
+INFO [2023-03-11 20:33:11] Normalize counts. Method: quantile, ID column: ENSEMBL
+INFO [2023-03-11 20:33:12]  Finished successfully. Execution time: 0.4 secs
+INFO [2023-03-11 20:33:12] Subset RNA and peaks and keep only shared samples
+INFO [2023-03-11 20:33:12]  Number of samples for RNA before filtering: 29
+INFO [2023-03-11 20:33:12]  Number of samples for peaks before filtering: 31
+INFO [2023-03-11 20:33:12]  29 samples (babk_D,bima_D,cicb_D,coyi_D,diku_D,eipl_D,eiwy_D,eofe_D,fafq_D,febc_D,fikt_D,guss_D,hayt_D,hehd_D,heja_D,hiaf_D,iill_D,kuxp_D,nukw_D,oapg_D,oevr_D,pamv_D,pelm_D,podx_D,qolg_D,sojd_D,vass_D,xugn_D,zaui_D) are shared between the peaks and RNA-Seq data
+WARN [2023-03-11 20:33:12] The following samples from the peaks will be ignored for the classification due to missing overlap with RNA-Seq: uaqe_D,qaqx_D
+INFO [2023-03-11 20:33:12]  Number of samples for RNA after filtering: 29
+INFO [2023-03-11 20:33:12]  Number of samples for peaks data after filtering: 29
+INFO [2023-03-11 20:33:12]  Finished successfully. Execution time: 0.3 secs
+INFO [2023-03-11 20:33:12] Produce 1 permutations of RNA-counts
+INFO [2023-03-11 20:33:12] Shuffling columns 1 times
+INFO [2023-03-11 20:33:12]  Finished successfully. Execution time: 0 secs
+INFO [2023-03-11 20:33:12] Parsing provided metadata...
+INFO [2023-03-11 20:33:18] Check for overlapping peaks...
+INFO [2023-03-11 20:33:22]  Calculate statistics for each peak (mean and CV)
+WARN [2023-03-11 20:33:22] The package ChIPseeker is currently not installed, which is needed for additional peak annotation that can be useful for further downstream analyses.  You may want to install it and re-run this function. However, this is optional and except for some missing additional annotation columns, there is no limitation.. 
+This warning may or may not be ignored. Carefully check its significance and whether it may affect the results.
+INFO [2023-03-11 20:33:22] Calculate GC-content for peaks... 
+ERROR [2023-03-11 20:33:22] The suggested package "BSgenome.Hsapiens.UCSC.hg38" is not yet installed, but it is required for this function and in this context. Please install it and re-run this function.
+
+########################################################################################
+# An error occurred. See details above. If you think this is a bug, please contact us. #
+########################################################################################
+
+INFO [2023-03-11 20:43:32] Normalize counts. Method: DESeq_sizeFactor, ID column: peakID
+INFO [2023-03-11 20:43:34]  Finished successfully. Execution time: 1.9 secs
+INFO [2023-03-11 20:43:34] Normalize counts. Method: quantile, ID column: ENSEMBL
+INFO [2023-03-11 20:43:35]  Finished successfully. Execution time: 0.6 secs
+INFO [2023-03-11 20:43:35] Subset RNA and peaks and keep only shared samples
+INFO [2023-03-11 20:43:35]  Number of samples for RNA before filtering: 29
+INFO [2023-03-11 20:43:35]  Number of samples for peaks before filtering: 31
+INFO [2023-03-11 20:43:35]  29 samples (babk_D,bima_D,cicb_D,coyi_D,diku_D,eipl_D,eiwy_D,eofe_D,fafq_D,febc_D,fikt_D,guss_D,hayt_D,hehd_D,heja_D,hiaf_D,iill_D,kuxp_D,nukw_D,oapg_D,oevr_D,pamv_D,pelm_D,podx_D,qolg_D,sojd_D,vass_D,xugn_D,zaui_D) are shared between the peaks and RNA-Seq data
+WARN [2023-03-11 20:43:35] The following samples from the peaks will be ignored for the classification due to missing overlap with RNA-Seq: uaqe_D,qaqx_D
+INFO [2023-03-11 20:43:35]  Number of samples for RNA after filtering: 29
+INFO [2023-03-11 20:43:35]  Number of samples for peaks data after filtering: 29
+INFO [2023-03-11 20:43:35]  Finished successfully. Execution time: 0.1 secs
+INFO [2023-03-11 20:43:35] Produce 1 permutations of RNA-counts
+INFO [2023-03-11 20:43:35] Shuffling columns 1 times
+INFO [2023-03-11 20:43:35]  Finished successfully. Execution time: 0 secs
+INFO [2023-03-11 20:43:35] Parsing provided metadata...
+INFO [2023-03-11 20:43:40] Check for overlapping peaks...
+INFO [2023-03-11 20:43:41]  Calculate statistics for each peak (mean and CV)
+INFO [2023-03-11 20:43:41]  Retrieve peak annotation using ChipSeeker. This may take a while
+INFO [2023-03-11 20:44:36] Calculate GC-content for peaks... 
+ERROR [2023-03-11 20:44:36] The suggested package "BSgenome.Hsapiens.UCSC.hg38" is not yet installed, but it is required for this function and in this context. Please install it and re-run this function.
+
+########################################################################################
+# An error occurred. See details above. If you think this is a bug, please contact us. #
+########################################################################################
+
+INFO [2023-03-11 20:51:17] Normalize counts. Method: DESeq_sizeFactor, ID column: peakID
+INFO [2023-03-11 20:51:19]  Finished successfully. Execution time: 1.9 secs
+INFO [2023-03-11 20:51:19] Normalize counts. Method: quantile, ID column: ENSEMBL
+INFO [2023-03-11 20:51:20]  Finished successfully. Execution time: 0.4 secs
+INFO [2023-03-11 20:51:20] Subset RNA and peaks and keep only shared samples
+INFO [2023-03-11 20:51:20]  Number of samples for RNA before filtering: 29
+INFO [2023-03-11 20:51:20]  Number of samples for peaks before filtering: 31
+INFO [2023-03-11 20:51:20]  29 samples (babk_D,bima_D,cicb_D,coyi_D,diku_D,eipl_D,eiwy_D,eofe_D,fafq_D,febc_D,fikt_D,guss_D,hayt_D,hehd_D,heja_D,hiaf_D,iill_D,kuxp_D,nukw_D,oapg_D,oevr_D,pamv_D,pelm_D,podx_D,qolg_D,sojd_D,vass_D,xugn_D,zaui_D) are shared between the peaks and RNA-Seq data
+WARN [2023-03-11 20:51:20] The following samples from the peaks will be ignored for the classification due to missing overlap with RNA-Seq: uaqe_D,qaqx_D
+INFO [2023-03-11 20:51:20]  Number of samples for RNA after filtering: 29
+INFO [2023-03-11 20:51:20]  Number of samples for peaks data after filtering: 29
+INFO [2023-03-11 20:51:20]  Finished successfully. Execution time: 0.1 secs
+INFO [2023-03-11 20:51:20] Produce 1 permutations of RNA-counts
+INFO [2023-03-11 20:51:20] Shuffling columns 1 times
+INFO [2023-03-11 20:51:20]  Finished successfully. Execution time: 0 secs
+INFO [2023-03-11 20:51:20] Parsing provided metadata...
+INFO [2023-03-11 20:51:25] Check for overlapping peaks...
+INFO [2023-03-11 20:51:26]  Calculate statistics for each peak (mean and CV)
+INFO [2023-03-11 20:51:27]  Retrieve peak annotation using ChipSeeker. This may take a while
+INFO [2023-03-11 20:51:41] Calculate GC-content for peaks... 
+INFO [2023-03-11 20:51:45]  Finished successfully. Execution time: 3.9 secs
+INFO [2023-03-11 20:51:45]  Calculate statistics for each gene (mean and CV)
+INFO [2023-03-11 20:51:45] Retrieving genome annotation data from biomaRt... This may take a while
