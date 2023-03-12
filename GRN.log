@@ -1,100 +1,188 @@
-INFO [2023-03-11 20:14:36] Empty GRN object created successfully. Type the object name (e.g., GRN) to retrieve summary information about it at any time.
-INFO [2023-03-11 20:26:31] Normalize counts. Method: DESeq_sizeFactor, ID column: peakID
-INFO [2023-03-11 20:26:40]  Finished successfully. Execution time: 8.6 secs
-INFO [2023-03-11 20:26:40] Normalize counts. Method: quantile, ID column: ENSEMBL
-INFO [2023-03-11 20:26:41]  Finished successfully. Execution time: 0.8 secs
-INFO [2023-03-11 20:26:41] Subset RNA and peaks and keep only shared samples
-INFO [2023-03-11 20:26:41]  Number of samples for RNA before filtering: 29
-INFO [2023-03-11 20:26:41]  Number of samples for peaks before filtering: 31
-INFO [2023-03-11 20:26:41]  29 samples (babk_D,bima_D,cicb_D,coyi_D,diku_D,eipl_D,eiwy_D,eofe_D,fafq_D,febc_D,fikt_D,guss_D,hayt_D,hehd_D,heja_D,hiaf_D,iill_D,kuxp_D,nukw_D,oapg_D,oevr_D,pamv_D,pelm_D,podx_D,qolg_D,sojd_D,vass_D,xugn_D,zaui_D) are shared between the peaks and RNA-Seq data
-WARN [2023-03-11 20:26:41] The following samples from the peaks will be ignored for the classification due to missing overlap with RNA-Seq: uaqe_D,qaqx_D
-INFO [2023-03-11 20:26:41]  Number of samples for RNA after filtering: 29
-INFO [2023-03-11 20:26:41]  Number of samples for peaks data after filtering: 29
-INFO [2023-03-11 20:26:41]  Finished successfully. Execution time: 0.1 secs
-INFO [2023-03-11 20:26:42] Produce 1 permutations of RNA-counts
-INFO [2023-03-11 20:26:42] Shuffling columns 1 times
-INFO [2023-03-11 20:26:42]  Finished successfully. Execution time: 0 secs
-INFO [2023-03-11 20:26:42] Parsing provided metadata...
-INFO [2023-03-11 20:26:49] Check for overlapping peaks...
-ERROR [2023-03-11 20:26:49] The suggested package "TxDb.Hsapiens.UCSC.hg38.knownGene" is not yet installed, but it is required for this function and in this context. Please install it and re-run this function.
+INFO [2023-03-12 16:33:29] Empty GRN object created successfully. Type the object name (e.g., GRN) to retrieve summary information about it at any time.
+INFO [2023-03-12 16:33:35] Normalize counts. Method: DESeq_sizeFactor, ID column: peakID
+INFO [2023-03-12 16:33:42]  Finished successfully. Execution time: 7.7 secs
+INFO [2023-03-12 16:33:43] Normalize counts. Method: quantile, ID column: ENSEMBL
+INFO [2023-03-12 16:33:44]  Finished successfully. Execution time: 1.4 secs
+INFO [2023-03-12 16:33:44] Subset RNA and peaks and keep only shared samples
+INFO [2023-03-12 16:33:44]  Number of samples for RNA before filtering: 29
+INFO [2023-03-12 16:33:44]  Number of samples for peaks before filtering: 31
+INFO [2023-03-12 16:33:44]  29 samples (babk_D,bima_D,cicb_D,coyi_D,diku_D,eipl_D,eiwy_D,eofe_D,fafq_D,febc_D,fikt_D,guss_D,hayt_D,hehd_D,heja_D,hiaf_D,iill_D,kuxp_D,nukw_D,oapg_D,oevr_D,pamv_D,pelm_D,podx_D,qolg_D,sojd_D,vass_D,xugn_D,zaui_D) are shared between the peaks and RNA-Seq data
+WARN [2023-03-12 16:33:44] The following samples from the peaks will be ignored for the classification due to missing overlap with RNA-Seq: uaqe_D,qaqx_D
+INFO [2023-03-12 16:33:44]  Number of samples for RNA after filtering: 29
+INFO [2023-03-12 16:33:44]  Number of samples for peaks data after filtering: 29
+INFO [2023-03-12 16:33:44]  Finished successfully. Execution time: 0.2 secs
+INFO [2023-03-12 16:33:44] Produce 1 permutations of RNA-counts
+INFO [2023-03-12 16:33:44] Shuffling columns 1 times
+INFO [2023-03-12 16:33:44]  Finished successfully. Execution time: 0 secs
+INFO [2023-03-12 16:33:44] Parsing provided metadata...
+INFO [2023-03-12 16:33:51] Check for overlapping peaks...
+INFO [2023-03-12 16:33:59]  Calculate statistics for each peak (mean and CV)
+INFO [2023-03-12 16:33:59]  Retrieve peak annotation using ChipSeeker. This may take a while
+INFO [2023-03-12 16:34:54] Calculate GC-content for peaks... 
+INFO [2023-03-12 16:35:00]  Finished successfully. Execution time: 6 secs
+INFO [2023-03-12 16:35:00]  Calculate statistics for each gene (mean and CV)
+INFO [2023-03-12 16:35:01] Retrieving genome annotation data from biomaRt... This may take a while
+INFO [2023-03-12 16:35:39] 
+Plotting PCA and metadata correlation of normalized RNA data for all shared samples to file D:\2_POST_DOC\0_BUNINA_LAB\Projects\GRaNIE_Package_Example_Workflow\plots\PCA_sharedSamples_RNA.normalized.pdf... This may take a few minutes
+INFO [2023-03-12 16:35:39] Prepare PCA. Count transformation: none
+INFO [2023-03-12 16:35:39] Plotting directly
+INFO [2023-03-12 16:35:41]   Performing and summarizing PCs across metadata for top 500 features
+INFO [2023-03-12 16:39:59] Checking database folder for matching files: D:/2_POST_DOC/0_BUNINA_LAB/Projects/GRaNIE_Package_Example_Workflow/TFBS_selected
+INFO [2023-03-12 16:39:59] Found 6 matching TFs: BATF3.0.B, E2F6.0.A, E2F7.0.B, EGR1.0.A, EGR2.0.A, ETV5.0.C
+INFO [2023-03-12 16:39:59] Use all TF from the database folder D:/2_POST_DOC/0_BUNINA_LAB/Projects/GRaNIE_Package_Example_Workflow/TFBS_selected
+INFO [2023-03-12 16:39:59] Reading file D:/2_POST_DOC/0_BUNINA_LAB/Projects/GRaNIE_Package_Example_Workflow/TFBS_selected/translationTable.csv
+INFO [2023-03-12 16:39:59]  Finished successfully. Execution time: 0.1 secs
+INFO [2023-03-12 16:40:00] Running the pipeline for 6 TF in total.
+INFO [2023-03-12 16:43:20] Overlap peaks and TFBS using 1 cores. This may take a few minutes...
+WARN [2023-03-12 16:43:21]  Adjusted nCores down to 1 (only 50% of the cores are used at max)
+INFO [2023-03-12 16:43:23]  Calculating intersection for TF BATF3.0.B finished. Number of overlapping TFBS after filtering: 983
+INFO [2023-03-12 16:43:26]  Calculating intersection for TF E2F6.0.A finished. Number of overlapping TFBS after filtering: 4489
+INFO [2023-03-12 16:43:28]  Calculating intersection for TF E2F7.0.B finished. Number of overlapping TFBS after filtering: 3720
+INFO [2023-03-12 16:43:32]  Calculating intersection for TF EGR1.0.A finished. Number of overlapping TFBS after filtering: 7177
+INFO [2023-03-12 16:43:39]  Calculating intersection for TF EGR2.0.A finished. Number of overlapping TFBS after filtering: 10296
+INFO [2023-03-12 16:43:43]  Calculating intersection for TF ETV5.0.C finished. Number of overlapping TFBS after filtering: 8455
+INFO [2023-03-12 16:43:43]  Finished execution using 1 cores. TOTAL RUNNING TIME: 22.2 secs
 
-########################################################################################
-# An error occurred. See details above. If you think this is a bug, please contact us. #
-########################################################################################
+INFO [2023-03-12 16:47:54] FILTER PEAKS
+INFO [2023-03-12 16:47:54]  Number of peaks before filtering : 60698
+INFO [2023-03-12 16:47:55]   Filter peaks by CV: Min = 0
+INFO [2023-03-12 16:47:55]   Filter peaks by mean: Min = 5
+INFO [2023-03-12 16:47:55]  Number of peaks after filtering : 58934
+INFO [2023-03-12 16:47:55]  Finished successfully. Execution time: 0.2 secs
+INFO [2023-03-12 16:47:55] Filter and sort peaks and remain only those on the following chromosomes: chr1,chr2,chr3,chr4,chr5,chr6,chr7,chr8,chr9,chr10,chr11,chr12,chr13,chr14,chr15,chr16,chr17,chr18,chr19,chr20,chr21,chr22,chrX
+INFO [2023-03-12 16:47:55] Filter and sort peaks by size and remain only those smaller than : 10000
+INFO [2023-03-12 16:47:55]  Number of peaks before filtering: 60698
+INFO [2023-03-12 16:47:55]  Number of peaks after filtering : 60698
+INFO [2023-03-12 16:47:55]  Finished successfully. Execution time: 0.6 secs
+INFO [2023-03-12 16:47:55] Collectively, filter 1764 out of 60698 peaks.
+INFO [2023-03-12 16:47:55] Number of remaining peaks: 58934
+INFO [2023-03-12 16:47:56] FILTER RNA-seq
+INFO [2023-03-12 16:47:56]  Number of genes before filtering : 62919
+INFO [2023-03-12 16:47:56]   Filter genes by CV: Min = 0
+INFO [2023-03-12 16:47:56]   Filter genes by mean: Min = 1
+INFO [2023-03-12 16:47:56]  Number of genes after filtering : 18905
+INFO [2023-03-12 16:47:56]  Finished successfully. Execution time: 0.2 secs
+INFO [2023-03-12 16:47:56]  Number of rows in total: 18972
+INFO [2023-03-12 16:47:56]  Flagged 99 rows because the row mean was smaller than 1
+INFO [2023-03-12 16:49:13] 
+Real data
 
-INFO [2023-03-11 20:33:09] Normalize counts. Method: DESeq_sizeFactor, ID column: peakID
-INFO [2023-03-11 20:33:11]  Finished successfully. Execution time: 1.9 secs
-INFO [2023-03-11 20:33:11] Normalize counts. Method: quantile, ID column: ENSEMBL
-INFO [2023-03-11 20:33:12]  Finished successfully. Execution time: 0.4 secs
-INFO [2023-03-11 20:33:12] Subset RNA and peaks and keep only shared samples
-INFO [2023-03-11 20:33:12]  Number of samples for RNA before filtering: 29
-INFO [2023-03-11 20:33:12]  Number of samples for peaks before filtering: 31
-INFO [2023-03-11 20:33:12]  29 samples (babk_D,bima_D,cicb_D,coyi_D,diku_D,eipl_D,eiwy_D,eofe_D,fafq_D,febc_D,fikt_D,guss_D,hayt_D,hehd_D,heja_D,hiaf_D,iill_D,kuxp_D,nukw_D,oapg_D,oevr_D,pamv_D,pelm_D,podx_D,qolg_D,sojd_D,vass_D,xugn_D,zaui_D) are shared between the peaks and RNA-Seq data
-WARN [2023-03-11 20:33:12] The following samples from the peaks will be ignored for the classification due to missing overlap with RNA-Seq: uaqe_D,qaqx_D
-INFO [2023-03-11 20:33:12]  Number of samples for RNA after filtering: 29
-INFO [2023-03-11 20:33:12]  Number of samples for peaks data after filtering: 29
-INFO [2023-03-11 20:33:12]  Finished successfully. Execution time: 0.3 secs
-INFO [2023-03-11 20:33:12] Produce 1 permutations of RNA-counts
-INFO [2023-03-11 20:33:12] Shuffling columns 1 times
-INFO [2023-03-11 20:33:12]  Finished successfully. Execution time: 0 secs
-INFO [2023-03-11 20:33:12] Parsing provided metadata...
-INFO [2023-03-11 20:33:18] Check for overlapping peaks...
-INFO [2023-03-11 20:33:22]  Calculate statistics for each peak (mean and CV)
-WARN [2023-03-11 20:33:22] The package ChIPseeker is currently not installed, which is needed for additional peak annotation that can be useful for further downstream analyses.  You may want to install it and re-run this function. However, this is optional and except for some missing additional annotation columns, there is no limitation.. 
-This warning may or may not be ignored. Carefully check its significance and whether it may affect the results.
-INFO [2023-03-11 20:33:22] Calculate GC-content for peaks... 
-ERROR [2023-03-11 20:33:22] The suggested package "BSgenome.Hsapiens.UCSC.hg38" is not yet installed, but it is required for this function and in this context. Please install it and re-run this function.
+INFO [2023-03-12 16:49:13] Calculate TF-peak links for connection type expression
+INFO [2023-03-12 16:49:13]  Correlate expression and peak counts
+INFO [2023-03-12 16:49:13]   Retain 6 rows from TF/gene data out of 18873 (filter non-TF genes and TF genes with 0 counts throughout and keep only unique ENSEMBL IDs).
+INFO [2023-03-12 16:49:13]   Correlate TF/gene data for 6 unique Ensembl IDs (TFs) and peak counts for 58934 peaks.
+INFO [2023-03-12 16:49:13]   Note: For subsequent steps, the same gene may be associated with multiple TF, depending on the translation table.
+INFO [2023-03-12 16:49:14]   Finished successfully. Execution time: 0.3 secs
+INFO [2023-03-12 16:49:14]  Run FDR calculations for 6 TFs for which TFBS predictions and expression data for the corresponding gene are available.
+INFO [2023-03-12 16:49:14]   Compute FDR for each TF. This may take a while...
+INFO [2023-03-12 16:49:16]   Finished successfully. Execution time: 2.8 secs
+INFO [2023-03-12 16:49:16]  Finished successfully. Execution time: 2.9 secs
+INFO [2023-03-12 16:49:16] 
+Permuted data
 
-########################################################################################
-# An error occurred. See details above. If you think this is a bug, please contact us. #
-########################################################################################
+INFO [2023-03-12 16:49:16] Shuffling rows per column
+INFO [2023-03-12 16:49:16]  Finished successfully. Execution time: 0.1 secs
+INFO [2023-03-12 16:49:16] Calculate TF-peak links for connection type expression
+INFO [2023-03-12 16:49:17]  Correlate expression and peak counts
+INFO [2023-03-12 16:49:17]   Retain 6 rows from TF/gene data out of 18873 (filter non-TF genes and TF genes with 0 counts throughout and keep only unique ENSEMBL IDs).
+INFO [2023-03-12 16:49:17]   Correlate TF/gene data for 6 unique Ensembl IDs (TFs) and peak counts for 58934 peaks.
+INFO [2023-03-12 16:49:17]   Note: For subsequent steps, the same gene may be associated with multiple TF, depending on the translation table.
+INFO [2023-03-12 16:49:17]   Finished successfully. Execution time: 0.4 secs
+INFO [2023-03-12 16:49:17]  Run FDR calculations for 6 TFs for which TFBS predictions and expression data for the corresponding gene are available.
+INFO [2023-03-12 16:49:17]   Compute FDR for each TF. This may take a while...
+INFO [2023-03-12 16:49:19]   Finished successfully. Execution time: 2.8 secs
+INFO [2023-03-12 16:49:19]  Finished successfully. Execution time: 2.9 secs
+INFO [2023-03-12 16:49:34] 
+ Plotting for permutation 0
+INFO [2023-03-12 16:49:34] Plotting FDR curves for each TF
+INFO [2023-03-12 16:49:34] Plotting directly
+INFO [2023-03-12 16:49:34]  Including a total of 6 TF. Preparing plots...
+INFO [2023-03-12 16:49:37]  Finished successfully. Execution time: 3.1 secs
+INFO [2023-03-12 16:49:37] 
+ Plotting for permutation 1
+INFO [2023-03-12 16:49:37] Plotting FDR curves for each TF
+INFO [2023-03-12 16:49:38] Plotting directly
+INFO [2023-03-12 16:49:38]  Including a total of 6 TF. Preparing plots...
+INFO [2023-03-12 16:49:40]  Finished successfully. Execution time: 2.9 secs
+INFO [2023-03-12 16:53:27]  Connection type expression
 
-INFO [2023-03-11 20:43:32] Normalize counts. Method: DESeq_sizeFactor, ID column: peakID
-INFO [2023-03-11 20:43:34]  Finished successfully. Execution time: 1.9 secs
-INFO [2023-03-11 20:43:34] Normalize counts. Method: quantile, ID column: ENSEMBL
-INFO [2023-03-11 20:43:35]  Finished successfully. Execution time: 0.6 secs
-INFO [2023-03-11 20:43:35] Subset RNA and peaks and keep only shared samples
-INFO [2023-03-11 20:43:35]  Number of samples for RNA before filtering: 29
-INFO [2023-03-11 20:43:35]  Number of samples for peaks before filtering: 31
-INFO [2023-03-11 20:43:35]  29 samples (babk_D,bima_D,cicb_D,coyi_D,diku_D,eipl_D,eiwy_D,eofe_D,fafq_D,febc_D,fikt_D,guss_D,hayt_D,hehd_D,heja_D,hiaf_D,iill_D,kuxp_D,nukw_D,oapg_D,oevr_D,pamv_D,pelm_D,podx_D,qolg_D,sojd_D,vass_D,xugn_D,zaui_D) are shared between the peaks and RNA-Seq data
-WARN [2023-03-11 20:43:35] The following samples from the peaks will be ignored for the classification due to missing overlap with RNA-Seq: uaqe_D,qaqx_D
-INFO [2023-03-11 20:43:35]  Number of samples for RNA after filtering: 29
-INFO [2023-03-11 20:43:35]  Number of samples for peaks data after filtering: 29
-INFO [2023-03-11 20:43:35]  Finished successfully. Execution time: 0.1 secs
-INFO [2023-03-11 20:43:35] Produce 1 permutations of RNA-counts
-INFO [2023-03-11 20:43:35] Shuffling columns 1 times
-INFO [2023-03-11 20:43:35]  Finished successfully. Execution time: 0 secs
-INFO [2023-03-11 20:43:35] Parsing provided metadata...
-INFO [2023-03-11 20:43:40] Check for overlapping peaks...
-INFO [2023-03-11 20:43:41]  Calculate statistics for each peak (mean and CV)
-INFO [2023-03-11 20:43:41]  Retrieve peak annotation using ChipSeeker. This may take a while
-INFO [2023-03-11 20:44:36] Calculate GC-content for peaks... 
-ERROR [2023-03-11 20:44:36] The suggested package "BSgenome.Hsapiens.UCSC.hg38" is not yet installed, but it is required for this function and in this context. Please install it and re-run this function.
+INFO [2023-03-12 16:53:27]  Real data
 
-########################################################################################
-# An error occurred. See details above. If you think this is a bug, please contact us. #
-########################################################################################
+INFO [2023-03-12 16:53:27]  Correlate expression and peak counts
+INFO [2023-03-12 16:53:27]  Retain 6 rows from TF/gene data out of 18873 (filter non-TF genes and TF genes with 0 counts throughout and keep only unique ENSEMBL IDs).
+INFO [2023-03-12 16:53:27]  Correlate TF/gene data for 6 unique Ensembl IDs (TFs) and peak counts for 58934 peaks.
+INFO [2023-03-12 16:53:27]  Note: For subsequent steps, the same gene may be associated with multiple TF, depending on the translation table.
+INFO [2023-03-12 16:53:28]  Finished successfully. Execution time: 0.5 secs
+INFO [2023-03-12 16:53:28] Compute foreground and background as well as their median values per TF
+INFO [2023-03-12 16:53:28]  Finished successfully. Execution time: 0.5 secs
+INFO [2023-03-12 16:53:28] Calculate classification thresholds for repressors / activators
+INFO [2023-03-12 16:53:28]  Stringency 0.1: -0.0556 / 0
+INFO [2023-03-12 16:53:28]  Stringency 0.05: -0.0562 / 0
+INFO [2023-03-12 16:53:28]  Stringency 0.01: -0.0567 / 0
+INFO [2023-03-12 16:53:29]  Stringency 0.001: -0.0568 / 0
+INFO [2023-03-12 16:53:29]  Finished successfully. Execution time: 0.7 secs
+INFO [2023-03-12 16:53:29] Finalize classification
+INFO [2023-03-12 16:53:29]  Perform Wilcoxon test for each TF. This may take a few minutes.
+INFO [2023-03-12 16:53:31]   Stringency 0.1
+INFO [2023-03-12 16:53:31]   Stringency 0.05
+INFO [2023-03-12 16:53:31]   Stringency 0.01
+INFO [2023-03-12 16:53:31]   Stringency 0.001
+INFO [2023-03-12 16:53:32]  Summary of classification:
+INFO [2023-03-12 16:53:32]   Column classification_q0.1_final
+INFO [2023-03-12 16:53:32]    activator: 4,    undetermined: 2,    repressor: 0,    not-expressed: 0
+INFO [2023-03-12 16:53:32]   Column classification_q0.05_final
+INFO [2023-03-12 16:53:32]    activator: 4,    undetermined: 2,    repressor: 0,    not-expressed: 0
+INFO [2023-03-12 16:53:32]   Column classification_q0.01_final
+INFO [2023-03-12 16:53:32]    activator: 4,    undetermined: 2,    repressor: 0,    not-expressed: 0
+INFO [2023-03-12 16:53:32]   Column classification_q0.001_final
+INFO [2023-03-12 16:53:32]    activator: 4,    undetermined: 2,    repressor: 0,    not-expressed: 0
+INFO [2023-03-12 16:53:32]  Finished successfully. Execution time: 2.8 secs
+INFO [2023-03-12 16:53:32] Plotting density plots with foreground and background for each TF to file plots/TF_classification_densityPlots_expression_original.pdf
+INFO [2023-03-12 16:53:32]  Finished successfully. Execution time: 0.5 secs
+INFO [2023-03-12 16:53:33] Plotting AR summary plot to file plots/TF_classification_stringencyThresholds_expression_original.pdf
+INFO [2023-03-12 16:53:33]  Finished successfully. Execution time: 0.8 secs
+INFO [2023-03-12 16:53:34] Plotting AR heatmap to file plots/TF_classification_summaryHeatmap_expression_original.pdf
+INFO [2023-03-12 16:53:40]  Finished successfully. Execution time: 5.8 secs
+INFO [2023-03-12 16:53:40]  Permuted data
 
-INFO [2023-03-11 20:51:17] Normalize counts. Method: DESeq_sizeFactor, ID column: peakID
-INFO [2023-03-11 20:51:19]  Finished successfully. Execution time: 1.9 secs
-INFO [2023-03-11 20:51:19] Normalize counts. Method: quantile, ID column: ENSEMBL
-INFO [2023-03-11 20:51:20]  Finished successfully. Execution time: 0.4 secs
-INFO [2023-03-11 20:51:20] Subset RNA and peaks and keep only shared samples
-INFO [2023-03-11 20:51:20]  Number of samples for RNA before filtering: 29
-INFO [2023-03-11 20:51:20]  Number of samples for peaks before filtering: 31
-INFO [2023-03-11 20:51:20]  29 samples (babk_D,bima_D,cicb_D,coyi_D,diku_D,eipl_D,eiwy_D,eofe_D,fafq_D,febc_D,fikt_D,guss_D,hayt_D,hehd_D,heja_D,hiaf_D,iill_D,kuxp_D,nukw_D,oapg_D,oevr_D,pamv_D,pelm_D,podx_D,qolg_D,sojd_D,vass_D,xugn_D,zaui_D) are shared between the peaks and RNA-Seq data
-WARN [2023-03-11 20:51:20] The following samples from the peaks will be ignored for the classification due to missing overlap with RNA-Seq: uaqe_D,qaqx_D
-INFO [2023-03-11 20:51:20]  Number of samples for RNA after filtering: 29
-INFO [2023-03-11 20:51:20]  Number of samples for peaks data after filtering: 29
-INFO [2023-03-11 20:51:20]  Finished successfully. Execution time: 0.1 secs
-INFO [2023-03-11 20:51:20] Produce 1 permutations of RNA-counts
-INFO [2023-03-11 20:51:20] Shuffling columns 1 times
-INFO [2023-03-11 20:51:20]  Finished successfully. Execution time: 0 secs
-INFO [2023-03-11 20:51:20] Parsing provided metadata...
-INFO [2023-03-11 20:51:25] Check for overlapping peaks...
-INFO [2023-03-11 20:51:26]  Calculate statistics for each peak (mean and CV)
-INFO [2023-03-11 20:51:27]  Retrieve peak annotation using ChipSeeker. This may take a while
-INFO [2023-03-11 20:51:41] Calculate GC-content for peaks... 
-INFO [2023-03-11 20:51:45]  Finished successfully. Execution time: 3.9 secs
-INFO [2023-03-11 20:51:45]  Calculate statistics for each gene (mean and CV)
-INFO [2023-03-11 20:51:45] Retrieving genome annotation data from biomaRt... This may take a while
+INFO [2023-03-12 16:53:40]  Correlate expression and peak counts
+INFO [2023-03-12 16:53:40]  Retain 6 rows from TF/gene data out of 18873 (filter non-TF genes and TF genes with 0 counts throughout and keep only unique ENSEMBL IDs).
+INFO [2023-03-12 16:53:41]  Correlate TF/gene data for 6 unique Ensembl IDs (TFs) and peak counts for 58934 peaks.
+INFO [2023-03-12 16:53:41]  Note: For subsequent steps, the same gene may be associated with multiple TF, depending on the translation table.
+INFO [2023-03-12 16:53:41]  Finished successfully. Execution time: 0.4 secs
+INFO [2023-03-12 16:53:41] Shuffling rows per column
+INFO [2023-03-12 16:53:41]  Finished successfully. Execution time: 0.1 secs
+INFO [2023-03-12 16:53:41] Compute foreground and background as well as their median values per TF
+INFO [2023-03-12 16:53:41]  Finished successfully. Execution time: 0.5 secs
+INFO [2023-03-12 16:53:41] Calculate classification thresholds for repressors / activators
+INFO [2023-03-12 16:53:42]  Stringency 0.1: -0.0228 / 0.0005
+INFO [2023-03-12 16:53:42]  Stringency 0.05: -0.0234 / 0.0055
+INFO [2023-03-12 16:53:42]  Stringency 0.01: -0.0239 / 0.0095
+INFO [2023-03-12 16:53:42]  Stringency 0.001: -0.024 / 0.0104
+INFO [2023-03-12 16:53:42]  Finished successfully. Execution time: 0.5 secs
+INFO [2023-03-12 16:53:42] Finalize classification
+INFO [2023-03-12 16:53:42]  Perform Wilcoxon test for each TF. This may take a few minutes.
+INFO [2023-03-12 16:53:44]   Stringency 0.1
+INFO [2023-03-12 16:53:44]    Change the following TFs to 'undetermined' as they were classified as activator/repressor before but the Wilcoxon test was not significant: ETV5.0.C
+INFO [2023-03-12 16:53:44]   Stringency 0.05
+INFO [2023-03-12 16:53:44]    Change the following TFs to 'undetermined' as they were classified as activator/repressor before but the Wilcoxon test was not significant: ETV5.0.C
+INFO [2023-03-12 16:53:44]   Stringency 0.01
+INFO [2023-03-12 16:53:45]   Stringency 0.001
+INFO [2023-03-12 16:53:45]  Summary of classification:
+INFO [2023-03-12 16:53:45]   Column classification_q0.1_final
+INFO [2023-03-12 16:53:45]    activator: 0,    undetermined: 5,    repressor: 1,    not-expressed: 0
+INFO [2023-03-12 16:53:45]   Column classification_q0.05_final
+INFO [2023-03-12 16:53:45]    activator: 0,    undetermined: 5,    repressor: 1,    not-expressed: 0
+INFO [2023-03-12 16:53:45]   Column classification_q0.01_final
+INFO [2023-03-12 16:53:45]    activator: 0,    undetermined: 5,    repressor: 1,    not-expressed: 0
+INFO [2023-03-12 16:53:45]   Column classification_q0.001_final
+INFO [2023-03-12 16:53:45]    activator: 0,    undetermined: 5,    repressor: 1,    not-expressed: 0
+INFO [2023-03-12 16:53:45]  Finished successfully. Execution time: 3.1 secs
+INFO [2023-03-12 16:53:45] Plotting density plots with foreground and background for each TF to file plots/TF_classification_densityPlots_expression_permuted.pdf
+INFO [2023-03-12 16:53:46]  Finished successfully. Execution time: 1.2 secs
+INFO [2023-03-12 16:53:46] Plotting AR summary plot to file plots/TF_classification_stringencyThresholds_expression_permuted.pdf
+INFO [2023-03-12 16:53:46]  Finished successfully. Execution time: 0 secs
+INFO [2023-03-12 16:53:47] Shuffling rows per column
+INFO [2023-03-12 16:53:48]  Finished successfully. Execution time: 0.7 secs
+INFO [2023-03-12 16:53:48] Plotting AR heatmap to file plots/TF_classification_summaryHeatmap_expression_permuted.pdf
+INFO [2023-03-12 16:53:50]  Finished successfully. Execution time: 1.6 secs
